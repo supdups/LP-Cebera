@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/1xoy_next_dist_compiled_008ms3q._.js",
+      "static/chunks/1xoy_next_dist_shared_lib_0r6l_1u._.js",
+      "static/chunks/1xoy_next_dist_client_0rmbbrd._.js",
+      "static/chunks/1xoy_next_dist_06w-1r7._.js",
+      "static/chunks/1xoy_next_link_04184bn.js",
+      "static/chunks/1xoy_react-dom_0taiwys._.js",
+      "static/chunks/1xoy_0a_as4e._.js",
+      "static/chunks/[root-of-the-server]__0dh0rro._.js",
+      "static/chunks/OneDrive_Documents_Project_Cebera_sport-bike-rental-1_src_components_1d4c0ln._.css",
+      "static/chunks/OneDrive_Documents_Project_Cebera_sport-bike-rental-1_src_pages_index_0du2_q-._.js",
+      "static/chunks/1a4x_Documents_Project_Cebera_sport-bike-rental-1_src_pages_index_0swcocj._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

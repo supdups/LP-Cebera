@@ -1,0 +1,231 @@
+/* [project]/OneDrive/Documents/Project/Cebera/sport-bike-rental-1/src/components/Header.module.css [client] (css) */
+.Header-module__ZAfL2G__header {
+  color: #fff;
+  z-index: 100;
+  background-color: #000;
+  padding: 1.2rem 2rem;
+  animation: .5s ease-out Header-module__ZAfL2G__slideInDown;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 10px #dc143c33;
+}
+
+@keyframes Header-module__ZAfL2G__slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Header-module__ZAfL2G__container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Header-module__ZAfL2G__logo {
+  color: #dc143c;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.Header-module__ZAfL2G__logo:hover {
+  transform: scale(1.05);
+}
+
+.Header-module__ZAfL2G__nav {
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Header-module__ZAfL2G__nav a {
+  color: #fff;
+  font-size: .95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+  position: relative;
+}
+
+.Header-module__ZAfL2G__nav a:after {
+  content: "";
+  background-color: #dc143c;
+  width: 0;
+  height: 2px;
+  transition: width .3s;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.Header-module__ZAfL2G__nav a:hover {
+  color: #dc143c;
+}
+
+.Header-module__ZAfL2G__nav a:hover:after {
+  width: 100%;
+}
+
+.Header-module__ZAfL2G__cta {
+  color: #fff;
+  letter-spacing: .5px;
+  background-color: #dc143c;
+  border: none;
+  border-radius: 3px;
+  padding: .6rem 1.8rem;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.Header-module__ZAfL2G__cta:hover {
+  background-color: #b30a2a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px #dc143c4d;
+}
+
+/* [project]/OneDrive/Documents/Project/Cebera/sport-bike-rental-1/src/components/Hero.module.css [client] (css) */
+.Hero-module__lw1z-a__hero {
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10rem 2rem;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Hero-module__lw1z-a__hero:before {
+  content: "";
+  background-color: #dc143c14;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  animation: 6s ease-in-out infinite Hero-module__lw1z-a__float;
+  position: absolute;
+  top: -50%;
+  right: -10%;
+}
+
+.Hero-module__lw1z-a__hero:after {
+  content: "";
+  background-color: #dc143c0d;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  animation: 8s ease-in-out infinite reverse Hero-module__lw1z-a__float;
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+}
+
+@keyframes Hero-module__lw1z-a__float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.Hero-module__lw1z-a__content {
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: .8s ease-out Hero-module__lw1z-a__fadeIn;
+  position: relative;
+}
+
+.Hero-module__lw1z-a__title {
+  color: #fff;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.Hero-module__lw1z-a__title span {
+  color: #dc143c;
+}
+
+.Hero-module__lw1z-a__subtitle {
+  color: #ccc;
+  letter-spacing: .5px;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.Hero-module__lw1z-a__ctaContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.Hero-module__lw1z-a__cta {
+  cursor: pointer;
+  letter-spacing: .5px;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.Hero-module__lw1z-a__ctaPrimary {
+  color: #fff;
+  background-color: #dc143c;
+}
+
+.Hero-module__lw1z-a__ctaPrimary:hover {
+  background-color: #b30a2a;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px #dc143c66;
+}
+
+.Hero-module__lw1z-a__ctaSecondary {
+  color: #fff;
+  background-color: #0000;
+  border: 2px solid #fff;
+}
+
+.Hero-module__lw1z-a__ctaSecondary:hover {
+  color: #000;
+  background-color: #fff;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .Hero-module__lw1z-a__title {
+    font-size: 2.5rem;
+  }
+
+  .Hero-module__lw1z-a__subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=OneDrive_Documents_Project_Cebera_sport-bike-rental-1_src_components_1d4c0ln._.css.map*/

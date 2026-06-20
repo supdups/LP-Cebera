@@ -1,0 +1,62 @@
+/* [project]/OneDrive/Documents/Project/Cebera/sport-bike-rental-1/src/components/Header.module.css [client] (css) */
+.Header-module__ZAfL2G__header {
+  color: #fff;
+  z-index: 100;
+  background-color: #000;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 8px #dc143c4d;
+}
+
+.Header-module__ZAfL2G__container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+}
+
+.Header-module__ZAfL2G__logo {
+  color: #dc143c;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Header-module__ZAfL2G__nav {
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Header-module__ZAfL2G__nav a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Header-module__ZAfL2G__nav a:hover {
+  color: #dc143c;
+}
+
+.Header-module__ZAfL2G__cta {
+  color: #fff;
+  background-color: #dc143c;
+  border-radius: 4px;
+  padding: .5rem 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.Header-module__ZAfL2G__cta:hover {
+  background-color: #b30a2a;
+}
+
+/*# sourceMappingURL=088w_Project_Cebera_sport-bike-rental-1_src_components_Header_module_1g7whfz.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/pc/OneDrive/Documents/Project/Cebera/sport-bike-rental-1/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app';\nimport '../styles/globals.css';\n\nfunction MyApp({ Component, pageProps }: AppProps) {\n  return <Component {...pageProps} />;\n}\n\nexport default MyApp;"],"names":["MyApp","Component","pageProps"],"mappings":";;;;;;;AAGA,SAASA,MAAM,EAAEC,SAAS,EAAEC,SAAS,EAAY;IAC/C,qBAAO,qKAACD;QAAW,GAAGC,SAAS;;;;;;AACjC;uCAEeF"}}]
+}
