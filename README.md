@@ -1,6 +1,6 @@
-# Sport Bike Rental
+# Cebera Garage Landing Page
 
-Welcome to the Sport Bike Rental project! This is a minimalist landing page designed for renting sport bikes, featuring a sleek and sporty vibe with a color palette of red, white, and black.
+Your go-to rental for sportbikes in Samarinda!
 
 ## Features
 
